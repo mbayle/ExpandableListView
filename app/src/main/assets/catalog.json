@@ -1,0 +1,119 @@
+{
+  "configuration": {
+    "counting" : {
+      "url": "https://count.prod.insiteo.com/counter/SiteUseInfo.svc/RoomsStatusFromSiteAndAccountGuid/7531db04-ab4b-4ae8-8003-bf838cc04605/559",
+      "refreshInterval": 5
+    }
+    
+  },
+  "categories": [
+    {
+      "id": "office",
+      "description": "Bureaux",
+      "image": "office.png"
+    },
+    {
+      "id": "restaurant",
+      "description": "Restauration",
+      "image": "restaurant.png"
+    },
+    {
+      "id": "wc",
+      "description": "Toilettes",
+      "image": "wc.png"
+    },
+    {
+      "id": "meeting-room",
+      "description": "Reunion",
+      "image": "meeting-room.png"
+    },
+    {
+      "id": "open-office",
+      "description": "Open office",
+      "image": "open-office.png"
+    }
+  ],
+  "pois": [
+    {
+      "name": "Arnaud & M-C",
+      "subtitle": "3 places",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet mauris vestibulum, ultricies tortor condimentum, venenatis orci. Vivamus mauris enim, vestibulum vitae venenatis ac, imperdiet non leo. Praesent facilisis finibus sapien. Integer fermentum scelerisque tempor.",
+      "poiId": "Arnaud",
+      "categoryId": "office",
+      "capacity": 3,
+      "image": "office.jpg"
+    },
+    {
+      "name": "Projet & Produit",
+      "subtitle": "Bureau ouvert 3 places",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet mauris vestibulum, ultricies tortor condimentum, venenatis orci. Vivamus mauris enim, vestibulum vitae venenatis ac.",
+      "poiId": "Projet",
+      "categoryId": "office",
+      "capacity": 3,
+      "image": "office.jpg"
+    },    
+    {
+      "name": "Développement",
+      "subtitle": "Bureau ouvert 4 places",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet mauris vestibulum, ultricies tortor condimentum, venenatis orci. Vivamus mauris enim, vestibulum vitae venenatis ac.",
+      "poiId": "Dev",
+      "categoryId": "office",
+      "capacity": 4,
+      "image": "office.jpg"
+    },
+	{
+      "name": "R&D",
+      "subtitle": "Bureau, 2 places",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet mauris vestibulum, ultricies tortor condimentum, venenatis orci. Vivamus mauris enim, vestibulum vitae venenatis ac.",
+      "poiId": "RetD",
+      "categoryId": "office",
+      "capacity": 2,
+      "image": "office.jpg"
+    },
+	{
+      "name": "Labo",
+      "subtitle": "Bureau 1 place",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet mauris vestibulum, ultricies tortor condimentum, venenatis orci. Vivamus mauris enim, vestibulum vitae venenatis ac.",
+      "poiId": "Labo",
+      "categoryId": "office",
+      "capacity": 1,
+      "image": "office.jpg"
+    },
+	{
+      "name": "Marc",
+      "subtitle": "Bureau ouvert, 2 places",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet mauris vestibulum, ultricies tortor condimentum, venenatis orci. Vivamus mauris enim, vestibulum vitae venenatis ac.",
+      "poiId": "Marc",
+      "categoryId": "office",
+      "capacity": 2,
+      "image": "office.jpg"
+    },
+    {
+      "name": "Toilettes",
+      "subtitle": "Toilettes accessible handicapés",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet mauris vestibulum.",
+      "poiId": "toilettes",
+      "categoryId": "wc",
+      "capacity": 0,
+      "image": "wc.jpg"
+    },
+    {
+      "name": "Salle de réunion",
+      "subtitle": "Salle de réunion ouverte sur réservation, 12 places",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet mauris vestibulum, ultricies tortor condimentum, venenatis orci.",
+      "poiId": "Armagnac",
+      "categoryId": "meeting-room",
+      "capacity": 12,
+      "image": "meeting-room.jpg"
+    },
+    {
+      "name": "Bulle partagée",
+      "subtitle": "Bulle, 4 places",
+      "description": "6 places, Ecran 42\", Clickshare-lite, Pieuvre",
+      "poiId": "Bulle",
+      "categoryId": "open-office",
+      "capacity": 4,
+      "image": "meeting-room.jpg"
+    }
+  ]
+}
